@@ -8,8 +8,7 @@ public class Start {
 		// TODO Auto-generated method stub
 		Treibstoff diesel = new Treibstoff();
 		
-		diesel.setTreibstoffname("Telletubies");
-		System.out.println(diesel.getmTreibstoffname());
+
 		
 	}
 

@@ -13,12 +13,15 @@ public class Tanksaeule {
 	public void setmVerwendbar(boolean mVerwendbar) {
 		this.mVerwendbar = mVerwendbar;
 	}
+	
 	public boolean ismVerwendbar() {
 		return mVerwendbar;
 	}
+	
 	public void setmTanksaeulenNr(int mTanksaeulenNr) {
 		this.mTanksaeulenNr = mTanksaeulenNr;
 	}
+	
 	public int getmTanksaeulenNr() {
 		return mTanksaeulenNr;
 	}
