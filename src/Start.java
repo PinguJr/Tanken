@@ -1,5 +1,5 @@
 
-public class Star {
+public class Start {
 
 	/**
 	 * @param args
