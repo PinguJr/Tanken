@@ -7,8 +7,9 @@ public class Treibstoff {
 	private float mPreis;
 	private Date mDate;
 	
-	public Treibstoff(String pTreibstoffname) {
+	public Treibstoff(String pTreibstoffname, int pPreis) {
 		setmTreibstoffname(pTreibstoffname);
+		setmPreis(pPreis);
 		setmDate();
 		
 	}

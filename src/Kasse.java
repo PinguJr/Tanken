@@ -9,7 +9,7 @@ public class Kasse {
 		for (Tanksaeule eineTanksaeule : Tanksaeulen) {
 			eineTanksaeule.getmTanksaeulenNr();
 		}
-		Tanksaeule.add("Tanksaule1");
+		
 	}
 		
 }
