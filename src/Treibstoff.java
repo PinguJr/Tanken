@@ -7,22 +7,30 @@ public class Treibstoff {
 	private float mPreis;
 	private Date mDate;
 	
-	public void setmTreibstoffname(String mTreibstoffname) {
-		this.mTreibstoffname = mTreibstoffname;
+	public Treibstoff(String pTreibstoffname) {
+		setmTreibstoffname(pTreibstoffname);
+		setmDate();
+		
 	}
-
 	public String getmTreibstoffname() {
 		return mTreibstoffname;
 	}
-	
-    public void Treibstoffpreis(float pPreis) {
-    	mDate = new Date();
-    	setmPreis(pPreis);
-    }
-
+	public void setmTreibstoffname(String mTreibstoffname) {
+		this.mTreibstoffname = mTreibstoffname;
+	}
+	public float getmPreis() {
+		return mPreis;
+	}
 	public void setmPreis(float mPreis) {
 		this.mPreis = mPreis;
 	}
+	public Date getmDate() {
+		return mDate;
+	}
+	public void setmDate() {
+		Date datum = new Date();
+	}
+	
     
 	
 }
