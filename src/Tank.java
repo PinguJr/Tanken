@@ -1,8 +1,7 @@
-
 public class Tank {
 	
-	private double mMomInhalt;
-	private double mMinInhalt;
+	public double mMomInhalt;
+	public double mMinInhalt;
 	
 	public void setmMomInhalt(double mMomInhalt) {
 		this.mMomInhalt = mMomInhalt;
