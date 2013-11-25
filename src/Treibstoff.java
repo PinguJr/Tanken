@@ -1,24 +1,33 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Treibstoff {
-
-	private String mTreibstoffname;
-
 	
-	public Treibstoff(String pTreibstoffname, int pPreis) {
+	private String mTreibstoffname;
+	private int mTreibstoffID;
+	List<Treibstoffpreis>ExPreise = new ArrayList<Treibstoffpreis>();
+
+
+	public Treibstoff(String pTreibstoffname, int pTreibstoffID) {
 		setmTreibstoffname(pTreibstoffname);
-		setmPreis(pPreis);
-		setmDate();
-		
+		setmTreibstoffID(pTreibstoffID);
+
 	}
 
-	
 	public String getmTreibstoffname() {
 		return mTreibstoffname;
 	}
 	public void setmTreibstoffname(String mTreibstoffname) {
 		this.mTreibstoffname = mTreibstoffname;
+	}
+
+	public int getmTreibstoffID() {
+		return mTreibstoffID;
+	}
+
+	public void setmTreibstoffID(int mTreibstoffID) {
+		this.mTreibstoffID = mTreibstoffID;
 	}
 
     
