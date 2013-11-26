@@ -10,7 +10,7 @@ public class Start {
 	 * @param args
 	 */
 	
-	//Utils
+	//Utilss
 	public static boolean isInteger(String s) {
 	    try { 
 	        Integer.parseInt(s); 
@@ -38,6 +38,8 @@ public class Start {
 		
 		tanksaeulen.add(new Tanksaeule(0));
 		tanksaeulen.add(new Tanksaeule(1));
+		tanksaeulen.add(new Tanksaeule(2));
+		tanksaeulen.add(new Tanksaeule(3));
 		
 		for (Tanksaeule saeule : tanksaeulen) {
 			saeule.setmVerwendbar(true);
